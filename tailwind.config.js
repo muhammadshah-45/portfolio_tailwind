@@ -2,7 +2,14 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      screens:{
+        "sm":"480px",
+      }
+    },
+    fontFamily:{
+      playWrite:["Playwrite GB S", "serif"]
+    }
   },
   plugins: [],
 }
